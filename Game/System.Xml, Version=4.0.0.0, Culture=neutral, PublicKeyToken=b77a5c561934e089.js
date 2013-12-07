@@ -9188,7 +9188,7 @@ JSIL.MakeEnum(
     $.Field({Static:false, Public:false}, "pageCurr", $jsilcore.TypeRef("System.Array", [$asm12.TypeRef("System.Xml.XmlEventCache/XmlEvent")])); 
     $.Field({Static:false, Public:false}, "pageSize", $.Int32); 
     $.Field({Static:false, Public:false}, "hasRootNode", $.Boolean); 
-    $.Field({Static:false, Public:false}, "singleText", $asm16.TypeRef("System.Xml.Xsl.Runtime.StringConcat")); 
+    $.Field({Static:false, Public:false}, "singleText", $asm13.TypeRef("System.Xml.Xsl.Runtime.StringConcat")); 
     $.Field({Static:false, Public:false}, "baseUri", $.String); 
     $.Constant({Static:true , Public:false}, "InitialPageSize", 32); 
     $.Property({Static:false, Public:true }, "BaseUri", $.String);
@@ -15620,7 +15620,7 @@ JSIL.MakeEnum(
     );
 
     $.ExternalMethod({Static:false, Public:false}, ".ctor", 
-      new JSIL.MethodSignature(null, [$asm16.TypeRef("System.Xml.Xsl.Runtime.XmlQueryDataReader")], [])
+      new JSIL.MethodSignature(null, [$asm13.TypeRef("System.Xml.Xsl.Runtime.XmlQueryDataReader")], [])
     );
 
     $.ExternalMethod({Static:false, Public:false}, "AddConformanceWrapper", 
@@ -15760,7 +15760,7 @@ JSIL.MakeEnum(
       .Attribute($asm09.TypeRef("System.Runtime.TargetedPatchingOptOutAttribute"), function () { return ["Performance critical to inline this type of method across NGen image boundaries"]; });
 
     $.ExternalMethod({Static:false, Public:false}, "GetObjectData", 
-      new JSIL.MethodSignature(null, [$asm16.TypeRef("System.Xml.Xsl.Runtime.XmlQueryDataWriter")], [])
+      new JSIL.MethodSignature(null, [$asm13.TypeRef("System.Xml.Xsl.Runtime.XmlQueryDataWriter")], [])
     );
 
     $.ExternalMethod({Static:false, Public:false}, "Initialize", 
@@ -33963,7 +33963,7 @@ JSIL.MakeEnum(
     );
 
     $.ExternalMethod({Static:false, Public:false}, "TestCompile", 
-      new JSIL.MethodSignature($asm16.TypeRef("System.Xml.Xsl.Qil.QilExpression"), [
+      new JSIL.MethodSignature($asm13.TypeRef("System.Xml.Xsl.Qil.QilExpression"), [
           $.Object, $asm12.TypeRef("System.Xml.Xsl.XsltSettings"), 
           $asm12.TypeRef("System.Xml.XmlResolver")
         ], [])
@@ -34078,8 +34078,8 @@ JSIL.MakeEnum(
     $.Field({Static:false, Public:false}, "enableDebug", $.Boolean); 
     $.Field({Static:false, Public:false}, "compilerResults", $asm0B.TypeRef("System.CodeDom.Compiler.CompilerResults")); 
     $.Field({Static:false, Public:false}, "outputSettings", $asm12.TypeRef("System.Xml.XmlWriterSettings")); 
-    $.Field({Static:false, Public:false}, "qil", $asm16.TypeRef("System.Xml.Xsl.Qil.QilExpression")); 
-    $.Field({Static:false, Public:false}, "command", $asm16.TypeRef("System.Xml.Xsl.XmlILCommand")); 
+    $.Field({Static:false, Public:false}, "qil", $asm13.TypeRef("System.Xml.Xsl.Qil.QilExpression")); 
+    $.Field({Static:false, Public:false}, "command", $asm13.TypeRef("System.Xml.Xsl.XmlILCommand")); 
     $.Field({Static:true , Public:false}, "GeneratedCodeCtor", $asm09.TypeRef("System.Reflection.ConstructorInfo")); 
     $.Constant({Static:true , Public:false}, "Version", "4.0.0.0"); 
     $.Property({Static:false, Public:false}, "Errors", $asm0B.TypeRef("System.CodeDom.Compiler.CompilerErrorCollection"));
@@ -34416,7 +34416,7 @@ JSIL.MakeInterface(
     );
 
     $.ExternalMethod({Static:false, Public:false}, "get_Debugger", 
-      new JSIL.MethodSignature($asm16.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger"), [], [])
+      new JSIL.MethodSignature($asm13.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger"), [], [])
     )
       .Attribute($asm09.TypeRef("System.Runtime.TargetedPatchingOptOutAttribute"), function () { return ["Performance critical to inline this type of method across NGen image boundaries"]; });
 
@@ -34596,13 +34596,13 @@ JSIL.MakeInterface(
     );
 
     $.Field({Static:false, Public:false}, "_XmlResolver", $asm12.TypeRef("System.Xml.XmlResolver")); 
-    $.Field({Static:false, Public:false}, "_CompiledStylesheet", $asm16.TypeRef("System.Xml.Xsl.XsltOld.Stylesheet")); 
-    $.Field({Static:false, Public:false}, "_QueryStore", $asm09.TypeRef("System.Collections.Generic.List`1", [$asm16.TypeRef("System.Xml.Xsl.XsltOld.TheQuery")])); 
-    $.Field({Static:false, Public:false}, "_RootAction", $asm16.TypeRef("System.Xml.Xsl.XsltOld.RootAction")); 
-    $.Field({Static:false, Public:false}, "$debugger", $asm16.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger")); 
+    $.Field({Static:false, Public:false}, "_CompiledStylesheet", $asm13.TypeRef("System.Xml.Xsl.XsltOld.Stylesheet")); 
+    $.Field({Static:false, Public:false}, "_QueryStore", $asm09.TypeRef("System.Collections.Generic.List`1", [$asm13.TypeRef("System.Xml.Xsl.XsltOld.TheQuery")])); 
+    $.Field({Static:false, Public:false}, "_RootAction", $asm13.TypeRef("System.Xml.Xsl.XsltOld.RootAction")); 
+    $.Field({Static:false, Public:false}, "$debugger", $asm13.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger")); 
     $.Property({Static:false, Public:true }, "XmlResolver", $asm12.TypeRef("System.Xml.XmlResolver"));
 
-    $.Property({Static:false, Public:false}, "Debugger", $asm16.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger"));
+    $.Property({Static:false, Public:false}, "Debugger", $asm13.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger"));
 
     return function (newThisType) { $thisType = newThisType; }; 
   })
@@ -34636,7 +34636,7 @@ JSIL.MakeInterface(
     );
 
     $.ExternalMethod({Static:false, Public:true , Virtual:true }, "OnInstructionExecute", 
-      new JSIL.MethodSignature(null, [$asm16.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltProcessor")], [])
+      new JSIL.MethodSignature(null, [$asm13.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltProcessor")], [])
     );
 
     $.Field({Static:false, Public:false}, "unknownDebugger", $.Object); 
@@ -34644,7 +34644,7 @@ JSIL.MakeInterface(
     $.Field({Static:false, Public:false}, "onCompile", $asm09.TypeRef("System.Reflection.MethodInfo")); 
     $.Field({Static:false, Public:false}, "onExecute", $asm09.TypeRef("System.Reflection.MethodInfo")); 
     $.ImplementInterfaces(
-      /* 0 */ $asm16.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger")
+      /* 0 */ $asm13.TypeRef("System.Xml.Xsl.XsltOld.Debugger.IXsltDebugger")
     );
 
     return function (newThisType) { $thisType = newThisType; }; 

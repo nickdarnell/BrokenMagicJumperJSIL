@@ -19,33 +19,33 @@ var $asm0F = JSIL.GetAssembly("System.Drawing, Version=4.0.0.0, Culture=neutral,
 var $asm10 = JSIL.GetAssembly("System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
 var $asm11 = JSIL.GetAssembly("System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
 var $asm12 = JSIL.GetAssembly("System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
-var $asm13 = JSIL.GetAssembly("Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
+var $asm13 = JSIL.GetAssembly("System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
 var $asm14 = JSIL.GetAssembly("JSIL.Meta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
 var $asm15 = JSIL.GetAssembly("System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
-var $asm16 = JSIL.GetAssembly("System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089");
+var $asm16 = JSIL.GetAssembly("Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a");
 
 if (typeof (contentManifest) !== "object") { contentManifest = {}; };
 contentManifest["BrokenMagicJumper.exe"] = [
     ["Script", "XNA.Colors.js", { "sizeBytes": 5651 }],
-    ["Script", "Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 17632 }],
-    ["Script", "Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 30393 }],
-    ["Script", "Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 27192 }],
-    ["Script", "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 75532 }],
     ["Script", "Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 86678 }],
-    ["Script", "BrokenMagicJumper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 135667 }],
+    ["Script", "Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 27192 }],
+    ["Script", "Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 17632 }],
+    ["Script", "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 75532 }],
+    ["Script", "Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 428080 }],
+    ["Script", "BrokenMagicJumper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 134175 }],
     ["Script", "System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js", { "sizeBytes": 659733 }],
     ["Script", "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js", { "sizeBytes": 1306859 }],
     ["Script", "Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 758826 }],
-    ["Script", "System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js", { "sizeBytes": 921913 }],
-    ["Script", "Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 428080 }],
+    ["Script", "Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 30393 }],
     ["Script", "Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 108608 }],
-    ["Script", "SharedXNA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 1010284 }],
-    ["Script", "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 2893293 }],
+    ["Script", "System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js", { "sizeBytes": 921913 }],
     ["Script", "Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js", { "sizeBytes": 134583 }],
     ["Script", "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 3501290 }],
     ["Script", "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 5955803 }],
     ["Script", "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 8526736 }],
+    ["Script", "SharedXNA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js", { "sizeBytes": 1010284 }],
     ["Script", "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 8966584 }],
+    ["Script", "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js", { "sizeBytes": 2893293 }],
     ["ManifestResource", "Microsoft.Xna.Framework.RuntimeProfile", { "sizeBytes": 20, "assembly": "BrokenMagicJumper" }],
     ["Resources", "SharedXNA.CommonMessages.resj", { "sizeBytes": 2630 }],
 ];

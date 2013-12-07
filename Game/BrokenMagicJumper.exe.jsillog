@@ -1,5 +1,5 @@
 // JSILc v0.7.22842
-// Build took 0017.99 second(s).
+// Build took 0018.34 second(s).
 // The following configuration was used when translating 'X:\BrokenMagicJumper\Source\BrokenMagicJumper\bin\x86\Release\BrokenMagicJumper.exe':
 {"ContributingPaths":["X:\\JSIL\\bin\\defaults.jsilconfig","X:\\JSIL\\jsil.org\\demos\\BrokenMagicJumper\\BrokenMagicJumper.jsilconfig"],"Path":"X:\\JSIL\\jsil.org\\demos\\BrokenMagicJumper","SolutionBuilder":{"Configuration":"Release","Platform":"Mixed Platforms","Target":null,"LogVerbosity":null,"ExtraOutputs":[]},"AutoLoadConfigFiles":null,"UseLocalProxies":null,"ReuseTypeInfoAcrossAssemblies":null,"OutputDirectory":"%ConfigDirectory%","FileOutputDirectory":null,"Profile":"XNA4","ProfileSettings":{"OverwriteExistingContent":true,"ContentOutputDirectory":"%ConfigDirectory%/Content","UsePNGQuant":true,"FileSettings":{"Backgrounds\\Layer0_0.png":"ForceJPEG","Backgrounds\\Layer0_1.png":"ForceJPEG","Backgrounds\\Layer0_2.png":"ForceJPEG"}},"CustomVariables":{},"ApplyDefaults":null,"IncludeDependencies":null,"UseSymbols":null,"UseThreads":null,"UseDefaultProxies":null,"GenerateSkeletonsForStubbedAssemblies":null,"GenerateContentManifest":null,"RunBugChecks":null,"FilenameEscapeRegex":null,"AssemblyCollectionName":null,"FrameworkVersion":4,"Assemblies":{"Ignored":["Microsoft\\.VisualC,","Accessibility,","SMDiagnostics,","System\\.EnterpriseServices,","System\\.Security,","System\\.Runtime\\.Serialization\\.Formatters\\.Soap,","System\\.Runtime\\.DurableInstancing,","System\\.Data\\.SqlXml,","JSIL\\.Meta,"],"Stubbed":["mscorlib,","^System,","^System\\.(.+),","^Microsoft\\.(.+),","FSharp.Core,"],"Proxies":["X:\\JSIL\\bin\\JSIL.Proxies.XNA4.dll"],"Redirects":{}},"CodeGenerator":{"EliminateStructCopies":null,"SimplifyOperators":null,"SimplifyLoops":null,"EliminateTemporaries":null,"EliminateRedundantControlFlow":null,"CacheMethodSignatures":null,"CacheGenericMethodSignatures":null,"CacheTypeExpressions":null,"EliminatePointlessFinallyBlocks":null,"PreferAccessorMethods":null,"HintIntegerArithmetic":null,"EnableThreadedTransforms":null,"FreezeImmutableObjects":null,"EnableUnsafeCode":null,"HoistAllocations":null,"HintDoubleArithmetic":null,"AutoGenerateEventAccessorsInSkeletons":null,"AggressivelyUseElementProxies":null}}
 // The configuration was generated from the following configuration files:
@@ -7,25 +7,25 @@ X:\JSIL\bin\defaults.jsilconfig
 X:\JSIL\jsil.org\demos\BrokenMagicJumper\BrokenMagicJumper.jsilconfig
 // The following outputs were produced:
 XNA.Colors.js
-Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
-Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
-Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
-System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
 Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
+Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
+Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
+System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
+Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
 BrokenMagicJumper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js
 System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js
 System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js
 Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
-System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js
-Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
+Microsoft.Xna.Framework.Input.Touch, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
 Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
-SharedXNA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js
-System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
+System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.js
 Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553.js
 System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
 System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
+SharedXNA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.js
 System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
+System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.js
 Microsoft.Xna.Framework.RuntimeProfile
 SharedXNA.CommonMessages.resj
 // The following method(s) were ignored due to untranslatable variables:

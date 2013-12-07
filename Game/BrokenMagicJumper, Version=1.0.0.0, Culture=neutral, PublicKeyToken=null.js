@@ -391,70 +391,67 @@ JSIL.MakeInterface(
     return ($T10 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.RasterizerState)) ();
   };
   var $T11 = function () {
-    return ($T11 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.SpriteFont)) ();
+    return ($T11 = JSIL.Memoize($asm09.System.Exception)) ();
   };
   var $T12 = function () {
-    return ($T12 = JSIL.Memoize($asm09.System.String)) ();
+    return ($T12 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Media.MediaPlayer)) ();
   };
   var $T13 = function () {
-    return ($T13 = JSIL.Memoize($asm09.System.Exception)) ();
+    return ($T13 = JSIL.Memoize($asm09.System.Boolean)) ();
   };
   var $T14 = function () {
-    return ($T14 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Media.MediaPlayer)) ();
+    return ($T14 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keyboard)) ();
   };
   var $T15 = function () {
-    return ($T15 = JSIL.Memoize($asm09.System.Boolean)) ();
+    return ($T15 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.GamePad)) ();
   };
   var $T16 = function () {
-    return ($T16 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keyboard)) ();
+    return ($T16 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.PlayerIndex)) ();
   };
   var $T17 = function () {
-    return ($T17 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.GamePad)) ();
+    return ($T17 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.KeyboardState)) ();
   };
   var $T18 = function () {
-    return ($T18 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.PlayerIndex)) ();
+    return ($T18 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keys)) ();
   };
   var $T19 = function () {
-    return ($T19 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.KeyboardState)) ();
+    return ($T19 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.Game)) ();
   };
   var $T1A = function () {
-    return ($T1A = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keys)) ();
+    return ($T1A = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.GamePadState)) ();
   };
   var $T1B = function () {
-    return ($T1B = JSIL.Memoize($asm02.Microsoft.Xna.Framework.Game)) ();
+    return ($T1B = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Buttons)) ();
   };
   var $T1C = function () {
-    return ($T1C = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.GamePadState)) ();
+    return ($T1C = JSIL.Memoize($asm00.BrokenMagicJumper.Player)) ();
   };
   var $T1D = function () {
-    return ($T1D = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Buttons)) ();
+    return ($T1D = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Content.ContentManager)) ();
   };
   var $T1E = function () {
-    return ($T1E = JSIL.Memoize($asm00.BrokenMagicJumper.Player)) ();
+    return ($T1E = JSIL.Memoize($asm00.BrokenMagicJumper.Globals)) ();
   };
   var $T1F = function () {
-    return ($T1F = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Content.ContentManager)) ();
+    return ($T1F = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.Texture2D)) ();
   };
   var $T20 = function () {
-    return ($T20 = JSIL.Memoize($asm00.BrokenMagicJumper.Globals)) ();
+    return ($T20 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Media.Song)) ();
   };
   var $T21 = function () {
-    return ($T21 = JSIL.Memoize($asm04.Microsoft.Xna.Framework.Graphics.Texture2D)) ();
+    return ($T21 = JSIL.Memoize($asm09.System.Int32)) ();
   };
   var $T22 = function () {
-    return ($T22 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Media.Song)) ();
+    return ($T22 = JSIL.Memoize($asm09.System.String)) ();
   };
   var $T23 = function () {
-    return ($T23 = JSIL.Memoize($asm09.System.Int32)) ();
+    return ($T23 = JSIL.Memoize($asm09.System.Void)) ();
   };
   var $T24 = function () {
-    return ($T24 = JSIL.Memoize($asm09.System.Void)) ();
+    return ($T24 = JSIL.Memoize($asm09.System.Math)) ();
   };
   var $T25 = function () {
-    return ($T25 = JSIL.Memoize($asm09.System.Math)) ();
-  };
-  var $T26 = function () {
-    return ($T26 = JSIL.Memoize($asm0A.SharedXNA.GameModeManager)) ();
+    return ($T25 = JSIL.Memoize($asm0A.SharedXNA.GameModeManager)) ();
   };
   var $S00 = function () {
     return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm01.TypeRef("Microsoft.Xna.Framework.Vector2"), [$asm09.TypeRef("System.Single"), $asm09.TypeRef("System.Single")]))) ();
@@ -497,27 +494,17 @@ JSIL.MakeInterface(
     $T06().CommonBatch.End();
   };
 
-  function BrokenMagicJumperGameplayScreen_DrawShadowedString (font, value, position, color) {
-    $T06().CommonBatch.DrawString(
-      font, 
-      value, 
-      $T0C().op_Addition(position, $S00().Construct(1, 1)), 
-      $T01().get_Black()
-    );
-    $T06().CommonBatch.DrawString(font, value, position, color);
-  };
-
   function BrokenMagicJumperGameplayScreen_EnterState ($exception) {
     try {
-      $T14().set_IsRepeating(true);
-      $S02().CallStatic($T14(), "Play", null, this.BackgroundMusic);
+      $T12().set_IsRepeating(true);
+      $S02().CallStatic($T12(), "Play", null, this.BackgroundMusic);
     } catch ($exception) {
     }
     this.LoadLevel(0);
   };
 
   function BrokenMagicJumperGameplayScreen_ExitState () {
-    $T14().Pause();
+    $T12().Pause();
   };
 
   function BrokenMagicJumperGameplayScreen_GetHudFontColor (isOn) {
@@ -530,18 +517,18 @@ JSIL.MakeInterface(
   function BrokenMagicJumperGameplayScreen_HandleInput () {
     this.previousKeyboardState = this.keyboardState.MemberwiseClone();
     this.previousGamePadState = this.gamePadState.MemberwiseClone();
-    this.keyboardState = $T16().GetState().MemberwiseClone();
-    this.gamePadState = $T17().GetState($T18().One).MemberwiseClone();
-    if (this.keyboardState.IsKeyDown($T1A().Escape)) {
+    this.keyboardState = $T14().GetState().MemberwiseClone();
+    this.gamePadState = $T15().GetState($T16().One).MemberwiseClone();
+    if (this.keyboardState.IsKeyDown($T18().Escape)) {
       $T06().Game.Exit();
     }
-    if (!(!this.previousKeyboardState.IsKeyUp($T1A().PageUp) || !this.keyboardState.IsKeyDown($T1A().PageUp))) {
+    if (!(!this.previousKeyboardState.IsKeyUp($T18().PageUp) || !this.keyboardState.IsKeyDown($T18().PageUp))) {
       this.LoadNextLevel();
-    } else if (!(!this.previousKeyboardState.IsKeyUp($T1A().PageDown) || !this.keyboardState.IsKeyDown($T1A().PageDown))) {
+    } else if (!(!this.previousKeyboardState.IsKeyUp($T18().PageDown) || !this.keyboardState.IsKeyDown($T18().PageDown))) {
       this.LoadPreviousLevel();
     }
-    var continuePressed = (this.keyboardState.IsKeyDown($T1A().Space) || 
-      this.gamePadState.IsButtonDown($T1D().Start));
+    var continuePressed = (this.keyboardState.IsKeyDown($T18().Space) || 
+      this.gamePadState.IsButtonDown($T1B().Start));
     if (!(this.wasContinuePressed || !continuePressed)) {
       if (!this.level.get_Player().get_IsAlive()) {
         this.level.StartNewLife();
@@ -565,8 +552,8 @@ JSIL.MakeInterface(
   };
 
   function BrokenMagicJumperGameplayScreen_LoadContent (Content) {
-    $T20().Logo = Content.Load$b1($T21())("Screens/TitleScreen");
-    this.BackgroundMusic = Content.Load$b1($T22())("Sounds/Music/BackgroundMusic");
+    $T1E().Logo = Content.Load$b1($T1F())("Screens/TitleScreen");
+    this.BackgroundMusic = Content.Load$b1($T20())("Sounds/Music/BackgroundMusic");
   };
 
   function BrokenMagicJumperGameplayScreen_LoadLevel (levelIndex) {
@@ -583,11 +570,11 @@ JSIL.MakeInterface(
       this.ShowGameWinScreen();
       return;
     }
-    this.LoadLevel($T25().Max(((this.levelIndex + 1) | 0), 0));
+    this.LoadLevel($T24().Max(((this.levelIndex + 1) | 0), 0));
   };
 
   function BrokenMagicJumperGameplayScreen_LoadPreviousLevel () {
-    this.LoadLevel($T25().Max(((this.levelIndex - 1) | 0), 0));
+    this.LoadLevel($T24().Max(((this.levelIndex - 1) | 0), 0));
   };
 
   function BrokenMagicJumperGameplayScreen_ReloadCurrentLevel () {
@@ -595,7 +582,7 @@ JSIL.MakeInterface(
   };
 
   function BrokenMagicJumperGameplayScreen_ShowGameWinScreen () {
-    $T26().PopMenu();
+    $T25().PopMenu();
   };
 
   function BrokenMagicJumperGameplayScreen_Update (gameTime) {
@@ -626,14 +613,6 @@ JSIL.MakeInterface(
     $.Method({Static:false, Public:false}, "DrawHud", 
       new JSIL.MethodSignature(null, [], []), 
       BrokenMagicJumperGameplayScreen_DrawHud
-    );
-
-    $.Method({Static:false, Public:false}, "DrawShadowedString", 
-      new JSIL.MethodSignature(null, [
-          $asm04.TypeRef("Microsoft.Xna.Framework.Graphics.SpriteFont"), $.String, 
-          $asm01.TypeRef("Microsoft.Xna.Framework.Vector2"), $asm01.TypeRef("Microsoft.Xna.Framework.Color")
-        ], []), 
-      BrokenMagicJumperGameplayScreen_DrawShadowedString
     );
 
     $.Method({Static:false, Public:true , Virtual:true }, "EnterState", 
@@ -3203,40 +3182,31 @@ JSIL.MakeEnum(
     return ($T0D = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Audio.SoundEffect)) ();
   };
   var $T0E = function () {
-    return ($T0E = JSIL.Memoize($asm0A.SharedXNA.CommonMessages)) ();
+    return ($T0E = JSIL.Memoize($asm0A.SharedXNA.GameMode)) ();
   };
   var $T0F = function () {
-    return ($T0F = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Vector2)) ();
+    return ($T0F = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Content.ContentManager)) ();
   };
   var $T10 = function () {
-    return ($T10 = JSIL.Memoize($asm0A.SharedXNA.GameMode)) ();
+    return ($T10 = JSIL.Memoize($asm09.System.String)) ();
   };
   var $T11 = function () {
-    return ($T11 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Content.ContentManager)) ();
+    return ($T11 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.KeyboardState)) ();
   };
   var $T12 = function () {
-    return ($T12 = JSIL.Memoize($asm09.System.String)) ();
+    return ($T12 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keyboard)) ();
   };
   var $T13 = function () {
-    return ($T13 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.KeyboardState)) ();
+    return ($T13 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.GamePad)) ();
   };
   var $T14 = function () {
-    return ($T14 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keyboard)) ();
+    return ($T14 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.PlayerIndex)) ();
   };
   var $T15 = function () {
-    return ($T15 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.GamePad)) ();
+    return ($T15 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keys)) ();
   };
   var $T16 = function () {
-    return ($T16 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.PlayerIndex)) ();
-  };
-  var $T17 = function () {
-    return ($T17 = JSIL.Memoize($asm01.Microsoft.Xna.Framework.Input.Keys)) ();
-  };
-  var $T18 = function () {
-    return ($T18 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.Game)) ();
-  };
-  var $S00 = function () {
-    return ($S00 = JSIL.Memoize(new JSIL.ConstructorSignature($asm01.TypeRef("Microsoft.Xna.Framework.Vector2"), [$asm09.TypeRef("System.Single"), $asm09.TypeRef("System.Single")]))) ();
+    return ($T16 = JSIL.Memoize($asm02.Microsoft.Xna.Framework.Game)) ();
   };
 
   function BrokenMagicJumperTitleScreen__ctor (Tex, Evt) {
@@ -3268,15 +3238,13 @@ JSIL.MakeEnum(
           this.reptosInstance = $thisType.ReptosSound.CreateInstance();
           this.reptosInstance.Play();
         }
-      } else {
-        $T08().get_Batch().DrawString($T0A().MenuFont, $T0E().get_PressStartToContinue(), $S00().Construct((($T0A().ScreenWidth / 2) - 100), ($T0A().ScreenHeight - 75)), this.pressStartColor);
       }
     }
     $T08().End();
   };
 
   function BrokenMagicJumperTitleScreen_EnterState () {
-    $T10().prototype.EnterState.call(this);
+    $T0E().prototype.EnterState.call(this);
     this.DrawTime = +0;
   };
 
@@ -3289,14 +3257,14 @@ JSIL.MakeEnum(
       this.reptosInstance.Stop(true);
       this.reptosInstance = null;
     }
-    $T10().prototype.ExitState.call(this);
+    $T0E().prototype.ExitState.call(this);
   };
 
   function BrokenMagicJumperTitleScreen_LoadContent (content) {
     $thisType.StoryScreenTextures = JSIL.Array.New($T00(), 14);
 
     for (var i = 0; i <= 13; i = ((i + 1) | 0)) {
-      $thisType.StoryScreenTextures[i] = content.Load$b1($T00())($T12().Format("Story\\Story{0:d2}", i));
+      $thisType.StoryScreenTextures[i] = content.Load$b1($T00())($T10().Format("Story\\Story{0:d2}", i));
     }
     $thisType.ReptosSound = content.Load$b1($T0D())("Sounds/DoomSound");
     $thisType.intro = content.Load$b1($T0D())("Sounds/IntroSound");
@@ -3307,10 +3275,10 @@ JSIL.MakeEnum(
   };
 
   function BrokenMagicJumperTitleScreen_UpdateInput (gameTime) {
-    $T10().prototype.UpdateInput.call(this, gameTime);
-    var keyboardState = $T14().GetState().MemberwiseClone();
-    $T15().GetState($T16().One);
-    if (keyboardState.IsKeyDown($T17().Escape)) {
+    $T0E().prototype.UpdateInput.call(this, gameTime);
+    var keyboardState = $T12().GetState().MemberwiseClone();
+    $T13().GetState($T14().One);
+    if (keyboardState.IsKeyDown($T15().Escape)) {
       $T0A().Game.Exit();
     }
   };
